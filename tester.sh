@@ -93,7 +93,7 @@ fi
 if [[ $t3 == 1 || $tm == 1 ]]
 then
     echo "${L_Green}\n [Test 3]\tSending big str with 20 000 char${NC}"
-    $PATH_TO_CLIENT $p_id "
+$PATH_TO_CLIENT $p_id "
 
                                                LL             A
                                                LL            A A
@@ -113,6 +113,22 @@ TTTTTTTT  OOOOOOOOO  UU     UU  RRRRRRRR             EEEEEEEEE  IIIIIIIIII  FFFF
   TT      OO     OO  UU     UU  RR   RR              EE             II      FF         FF         EE         LL
   TT      OOOOOOOOO  UUUUUUUUU  RR    RR             EEEEEEEEE  IIIIIIIIII  FF         FF         EEEEEEEEE  LLLLLLLLL
   TT       OOOOOOO    UUUUUUU   RR     RR            EEEEEEEEE  IIIIIIIIII  FF         FF         EEEEEEEEE  LLLLLLLLL
+
+                                               CCCCCCCC  EEEEEEEE  ZZZZZZZZ  ZZZZZZZZ  AAAAAAAA  RRRRRRRR
+                                              CC         EE             ZZ       ZZ   AA    AA  RR     RR
+                                             CC          EE            ZZ       ZZ    AA    AA  RR     RR
+                                             CC          EEEEEEEE     ZZ       ZZ     AAAAAAAA  RRRRRRRR
+                                              CC         EE          ZZ       ZZ      AA    AA  RR  RR
+                                               CCCCCCCC  EEEEEEEE  ZZZZZZZZ  ZZZZZZZZ  AA    AA  RR   RR
+
+                                                BBBBBBB   AAAAAAAA  BBBBBBB   AAAAAAAA
+                                                BB    BB  AA    AA  BB    BB  AA    AA
+                                                BB    BB  AA    AA  BB    BB  AA    AA
+                                                BBBBBBB   AAAAAAAA  BBBBBBB   AAAAAAAA
+                                                BB    BB  AA    AA  BB    BB  AA    AA
+                                                BB    BB  AA    AA  BB    BB  AA    AA
+                                                BBBBBBB   AA    AA  BBBBBBB   AA    AA
+
                                                          .
                                                          1
                                                          1
